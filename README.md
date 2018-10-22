@@ -10,4 +10,6 @@ it is very simple but quite striking, remember that it was done 4 years ago (rec
 
 you can see [here](http://webapps.programmr.com/clagccs/calendarSubmission/)
 
+![calendario](https://github.com/cocodrino/calendarSubmission/blob/master/screenshot.png?raw=true)
+
 ****
