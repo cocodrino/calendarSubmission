@@ -1,0 +1,188 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
+<html class="uk-height-1-1">
+<head><title>calendarSubmission</title>
+
+<link rel="stylesheet" href="uikit-2.2.0/css/uikit.almost-flat.css"/>
+
+
+
+
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+<script type="text/javascript" src="uikit-2.0.0/js/uikit.min.js"></script>
+<script src="http://fb.me/react-with-addons-0.10.0.min.js"></script>
+
+<script src="dep/jquery-velocity.min.js"></script>
+<script src="dep/FitText.js"></script>
+
+  <style>
+
+            .Componentalternable input {
+
+                  width: 90px;
+                  padding-left: 10px;
+                  height: 30px;
+                  font-size: 24px;
+                  color: white;
+                  border-radius: 25px;
+                  background-color: #ff4136;
+
+            }
+
+              body {
+                    background: url(http://images.cryhavok.org/d/11024-2/Dark+Wood+by+zygat3r.jpg) no-repeat center center fixed !important;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+              }
+
+            .alertMessage {
+                  left: 50%;
+                  margin-left: -44%;
+
+                  position: absolute;
+                  width: 85%;
+                  top: 1%;
+                  z-index: 650;
+                  visibility: hidden;
+
+            }
+
+            #leftArrow:Hover {
+                  color: #ffffff;
+                  opacity: 0.7;
+            }
+
+            #rigthArrow:Hover {
+                  color: #ffffff;
+                  opacity: 0.7;
+            }
+
+            th {
+                  border-radius: 1px;
+                  color: #3d9970;
+                  font-size: 15px;
+            }
+
+            .MonthLabel {
+                  font-size: 43px !important;
+                  color: #E4E4E4;
+                  display: inline-block;
+            }
+
+            .yearLabel {
+                  font-size: 26px !important;
+                  color: #ff4136 !important;
+                  opacity: 0.7 !important;
+                  display: inline-block;
+
+                  height: 20px;
+
+
+
+            }
+
+            table {
+                  width: 70%;;
+                  padding-top: 18px;
+                  border-collapse: separate;
+
+                  border-radius: 5px;
+            }
+
+            td {
+                  text-align: center;
+                  width: 6%;
+
+                  border: 1px solid rgba(0, 0, 0, 0.5);
+                  border-collapse: collapse;
+                  background-color: #ffffff;
+                  opacity: 0.5;
+            }
+
+            .daysLabl {
+                  height: 22%;
+
+            }
+
+            table tr:last-child td:first-child {
+
+                  border-bottom-left-radius: 5px;
+            }
+
+            table tr:last-child td:last-child {
+
+                  border-bottom-right-radius: 5px;
+            }
+
+            #containerVertical {
+                  height: 100%;
+                  width: 100%;
+            }
+
+            #calendarPlace {
+                  position: relative;
+                  top: 10%;
+            }
+
+            .resizableText {
+                  opacity: 1;
+                  color: #eaeaea;
+                  font-size: 25px;
+
+            }
+
+            #centerIT {
+                  text-align: center;
+                  vertical-align: middle;
+                  line-height: 20px;
+                  padding-top: 5px;
+                  padding-bottom: 0px;
+                  height: 30px;
+            }
+
+            #centerIT p {
+                  font-size: 35px;
+
+            }
+
+            #calendarPlace {
+                  top: 3% !important;
+
+            }
+
+            .ArrowContainer{
+                  position: relative;
+                  min-height: 30px;
+                  color:  #3d9970;
+                  z-index: 600;
+            }
+            .fa{
+                  font-size: 30px;
+
+            }
+
+            .containerYearLabel {
+                  display: inline-block;
+                  position: relative;
+                  width: 160px;
+                  height: 0px;
+                  top: -49px;
+                  padding-bottom: 2px;
+                  z-index: 500;
+            }
+
+      </style>
+
+
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body class="uk-height-1-1">
+   <div id="calendarPlace"></div>
+   <script src="scripts/CalendarGenerator.js"></script>
+   <script src="scripts/Calendar.js"></script>
+
+</body>
+</html>
